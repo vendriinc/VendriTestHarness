@@ -1,0 +1,40 @@
+{
+  "name": "vendri",
+  "version": "1.0.0",
+  "description": "JS clientside ad service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --config webpack.prod.js --mode production",
+    "serve": "http-server ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vendriinc/vendri.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vendriinc/vendri/issues"
+  },
+  "homepage": "https://github.com/vendriinc/vendri#readme"
+}
